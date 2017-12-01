@@ -1,5 +1,6 @@
 import webpack from "webpack";
 import path from "path";
+var CompressionPlugin = require("compression-webpack-plugin");
 
 export default {
   module: {
@@ -19,6 +20,13 @@ export default {
   },
 
   plugins: [
+    new CompressionPlugin({
+      asset: "[path].gz[query]",
+      algorithm: "gzip",
+      test: /\.(js|html)$/,
+      threshold: 10240,
+      minRatio: 0.8
+  }),
     new webpack.ProvidePlugin({
       "fetch": "imports?this=>global!exports?global.fetch!whatwg-fetch"
     })
