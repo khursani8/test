@@ -8,3 +8,6 @@ Security
 
 * https://alf.nu/SHA1 // sha1 collision
 
+Machine Learning
+
+* http://ruder.io/optimizing-gradient-descent/index.html // sgd history
