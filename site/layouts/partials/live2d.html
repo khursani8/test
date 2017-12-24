@@ -11,10 +11,15 @@
 <link rel="stylesheet" href="/live2d/css/live2d.css" />
 <script src="/live2d.min.js"></script>
 <script src="/live2d-helper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.1/mousetrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="/live2d/js/message.js"></script>
 
 <script>
+    Mousetrap.bind('q', function() {
+        showHitokoto()
+     });
+
 	var live2DHelper = new Live2DHelper({canvas: 'live2d'});
 
 	window.onload = function() {
@@ -23,6 +28,7 @@
             console.log('load model')
             live2DHelper.startTurnHead();
             live2DHelper.modelScaling(0.1)
+            live2DHelper.setRandomExpression()
             document.getElementById("live2d").addEventListener("mousemove", followPointer, false);
 		});
     };
