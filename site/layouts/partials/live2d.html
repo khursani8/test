@@ -12,6 +12,7 @@
 		live2DHelper.loadModel(path, function(){
             console.log('load model')
             live2DHelper.startTurnHead();
+            live2DHelper.modelScaling(0.1)
             document.getElementById("glcanvas").addEventListener("mousemove", followPointer, false);
 		});
     };
