@@ -87,11 +87,11 @@ gulp.task("server", ["hugo", "css", "js", "svg", "cms"], () => {
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
+  gulp.watch("./vendor/**/*", ["js"]);
   gulp.watch("./src/css/**/*.css", ["css"]);
   gulp.watch("./src/cms/*", ["cms"]);
   gulp.watch("./site/static/img/icons/*.svg", ["svg"]);
   gulp.watch("./site/**/*", ["hugo"]);
-  gulp.watch("./vendor/**/*", ["copy"]);
 });
 
 function buildSite(cb, options) {
