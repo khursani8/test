@@ -1,0 +1,23 @@
+{
+    "mouseover": [
+        {
+            "selector": "a",
+            "text": ["Want to see {text}？"]
+        },
+        {
+            "selector": ".searchbox",
+            "text": ["What are you looking for? Need help? |ω･)ﾉ"]
+        },
+        {
+            "selector": "#landlord .live2d",
+            "text": ["Where do you think you put your mouse? (＃＞＜)"]
+        },
+        
+    ],
+    "click": [
+        {
+            "selector": "#landlord #live2d",
+            "text": ["Don't touch me!! (＞﹏＜)","Hentai (￢_￢;)","If you touch me again, I have to call police!⌇●﹏●⌇"]
+        }
+    ]
+}
