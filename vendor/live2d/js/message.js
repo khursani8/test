@@ -127,7 +127,7 @@ function showAnimeQuote(text, timeout){
     ].join('')
     message = $('.message')
     message.html(quote).fadeTo(200, 1);
-    message.css('top',-message.height()+50);
+    message.css('top',-message.height()+30);
     if (timeout === null) timeout = 5000;
     hideMessage(timeout);
 }
