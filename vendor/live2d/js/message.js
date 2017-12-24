@@ -1,3 +1,4 @@
+var mainColor = '#fa4000'
 function renderTip(template, context) {
     var tokenReg = /(\\)?\{([^\{\}\\]+)(\\)?\}/g;
     return template.replace(tokenReg, function (word, slash1, token, slash2) {
@@ -53,14 +54,14 @@ $.ajax({
     if(document.referrer !== ''){
         var referrer = document.createElement('a');
         referrer.href = document.referrer;
-        text = 'Hi！You are from <span style="color:#0099cc;">' + referrer.hostname + '</span>！';
+        text = `Hi！You are from <span style="color:${mainColor}">` + referrer.hostname + '</span>！';
         var domain = referrer.hostname.split('.')[1];
         if (domain == 'baidu') {
-            text = '嗨！ 来自 百度搜索 的朋友，<br>你是搜索 <span style="color:#0099cc;">' + referrer.search.split('&wd=')[1].split('&')[0] + '</span> 找到的我吗？';
+            text = `嗨！ 来自 百度搜索 的朋友，<br>你是搜索 <span style="color:${mainColor};">` + referrer.search.split('&wd=')[1].split('&')[0] + '</span> 找到的我吗？';
         }else if (domain == 'so') {
-            text = '嗨！ 来自 360搜索 的朋友，<br>你是搜索 <span style="color:#0099cc;">' + referrer.search.split('&q=')[1].split('&')[0] + '</span> 找到的我吗？';
+            text = `嗨！ 来自 360搜索 的朋友，<br>你是搜索 <span style="color:${mainColor};">` + referrer.search.split('&q=')[1].split('&')[0] + '</span> 找到的我吗？';
         }else if (domain == 'google') {
-            text = 'Hi someone from Google，<br>Welcome to <span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+            text = `Hi someone from Google，<br>Welcome to <span style="color:${mainColor};">「 ' + document.title.split(' - ')[0] + ' 」</span>`;
         }
     }else {
         if (window.location.href == `${home_Path}`) { //如果是主页
@@ -85,7 +86,7 @@ $.ajax({
                 text = 'Hi ~ Come and play with me';
             }
         }else {
-            text = 'Welcome to <span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+            text = `Welcome to <span style="color:${mainColor};>「 ' + document.title.split(' - ')[0] + ' 」</span>`;
         }
     }
     showMessage(text, 12000);
@@ -120,9 +121,9 @@ function showAnimeQuote(text, timeout){
     console.log('showMessage', quotesentence);
     $('.message').stop();
     quote = [
-        `<span style="color:#0099cc;">${quoteanime}</span> Quote<br/>`,
+        `<span style="color:${mainColor};">${quoteanime}</span> Quote<br/>`,
         `${quotesentence}<br/>`,
-        `-<span style="color:#0099cc;">${quotecharacter}</span>`
+        `-<span style="color:${mainColor};">${quotecharacter}</span>`
     ].join('')
     message = $('.message')
     message.html(quote).fadeTo(200, 1);

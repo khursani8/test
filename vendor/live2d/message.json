@@ -1,7 +1,35 @@
 {
     "mouseover": [
         {
-            "selector": "a",
+            "selector": "#fb",
+            "text": ["Want to see Sani Facebook？"]
+        },
+        {
+            "selector": "#tw",
+            "text": ["Sani always tweet about amazing thing ＼(￣▽￣)／"]
+        },
+        {
+            "selector": "#github",
+            "text": ["Are you gonna stalk Sani repository?"]
+        },
+        {
+            "selector": "#insta",
+            "text": ["Picture of Sani adventure... (￣▽￣)ノ"]
+        },
+        {
+            "selector": "#cc",
+            "text": ["Place where Sani start his own adventure as Web Developer (*/ω＼)"]
+        },
+        {
+            "selector": "#linkedin",
+            "text": ["Want to hire Sani? You can take a look at how great Sani is... (╯✧▽✧)╯"]
+        },
+        {
+            "selector": "#kaggle",
+            "text": ["Place where Sani start his own adventure as Data Scientist (*/ω＼)"]
+        },
+        {
+            "selector": "a h2",
             "text": ["Want to see {text}？"]
         },
         {
@@ -16,7 +44,7 @@
     "click": [
         {
             "selector": "#landlord #live2d",
-            "text": ["Don't touch me!! (＞﹏＜)","Hentai (￢_￢;)","If you touch me again, I have to call police!⌇●﹏●⌇"]
+            "text": ["Don't touch me!! (＞﹏＜)","Hentai (￢_￢;)","If you touch me again, I have to call police!!"]
         }
     ]
 }
