@@ -1,0 +1,22 @@
+<canvas id="glcanvas" width="400" height="600" style="position:fixed;right:0;bottom:0">
+</canvas>
+
+<script src="/live2d.min.js"></script>
+<script src="/live2d-helper.min.js"></script>
+
+<script>
+	var live2DHelper = new Live2DHelper({canvas: 'glcanvas'});
+
+	window.onload = function() {
+		var path = "assets/models/asuna/asuna_01/asuna_01.model.json";
+		live2DHelper.loadModel(path, function(){
+            console.log('load model')
+            live2DHelper.startTurnHead();
+            document.getElementById("glcanvas").addEventListener("mousemove", followPointer, false);
+		});
+    };
+    
+    function followPointer(e) {
+        live2DHelper.followPointer(e);
+    }
+</script>

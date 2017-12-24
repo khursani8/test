@@ -51,7 +51,7 @@ gulp.task("css", () => (
 
 gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
-
+  gulp.src(['vendor/**/*']).pipe(gulp.dest('dist/'))
   webpack(myConfig, (err, stats) => {
     if (err) throw new gutil.PluginError("webpack", err);
     gutil.log("[webpack]", stats.toString({
@@ -61,6 +61,7 @@ gulp.task("js", (cb) => {
     browserSync.reload();
     cb();
   });
+  
 });
 
 gulp.task("svg", () => {
@@ -90,6 +91,7 @@ gulp.task("server", ["hugo", "css", "js", "svg", "cms"], () => {
   gulp.watch("./src/cms/*", ["cms"]);
   gulp.watch("./site/static/img/icons/*.svg", ["svg"]);
   gulp.watch("./site/**/*", ["hugo"]);
+  gulp.watch("./vendor/**/*", ["copy"]);
 });
 
 function buildSite(cb, options) {
