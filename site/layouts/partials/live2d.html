@@ -56,27 +56,7 @@
     $('.ph3.bg-center.cover').css('height',window.innerHeight-77)
     var canvasID = 'live2d'
     var no = [42,10,11,32,33,35,7,8,9]
-    function followPointer(e) {
-        live2DHelper.followPointer(e);
-    }
-    function changeModel(modelNum){
-        //modelNum = modelNum % 3 + 1;
-        modelNum = Math.floor(Math.random()*45) + 1
-        console.log(modelNum);
-        live2DHelper.releaseAllModel();
-        if(no.includes(modelNum)) modelNum = 1        
-        if(modelNum >= 10) {
-            live2DHelper.changeModel("/assets/models/asuna/asuna_"+modelNum+"/asuna_"+modelNum+".model.json", function(){
-                live2DHelper.startTurnHead();
-                document.getElementById(canvasID).addEventListener("mousemove", followPointer, false);
-            });
-        } else {
-            live2DHelper.changeModel("/assets/models/asuna/asuna_0"+modelNum+"/asuna_0"+modelNum+".model.json", function(){
-                live2DHelper.startTurnHead();
-                document.getElementById(canvasID).addEventListener("mousemove", followPointer, false);
-            });
-        }
-    }
+    
 
     $( document ).ready(function() {
         Mousetrap.bind('q', function() {
@@ -107,10 +87,35 @@
             live2DHelper.startTurnHead();
             document.getElementById(canvasID).addEventListener("mousemove", followPointer, false);
         });
+
+        function followPointer(e) {
+            live2DHelper.followPointer(e);
+        }
+        function changeModel(modelNum){
+            //modelNum = modelNum % 3 + 1;
+            modelNum = Math.floor(Math.random()*45) + 1
+            console.log(modelNum);
+            live2DHelper.releaseAllModel();
+            if(no.includes(modelNum)) modelNum = 1        
+            if(modelNum >= 10) {
+                live2DHelper.changeModel("/assets/models/asuna/asuna_"+modelNum+"/asuna_"+modelNum+".model.json", function(){
+                    live2DHelper.startTurnHead();
+                    document.getElementById(canvasID).addEventListener("mousemove", followPointer, false);
+                });
+            } else {
+                live2DHelper.changeModel("/assets/models/asuna/asuna_0"+modelNum+"/asuna_0"+modelNum+".model.json", function(){
+                    live2DHelper.startTurnHead();
+                    document.getElementById(canvasID).addEventListener("mousemove", followPointer, false);
+                });
+            }
+        }
     });
 </script>
 
 <style>
+    #waifu-tools > * {
+        margin: 5px 0;
+    }
     #waifu-tools{
         position: absolute;
         top:50px;
