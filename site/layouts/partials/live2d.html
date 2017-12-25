@@ -62,10 +62,10 @@
     $('#waifu-exit').click(function(){$('#landlord').hide()})
     var canvasID = 'live2d'
     var live2DHelper = new Live2DHelper({canvas: canvasID});
-    var no = [42,10,11,32]
+    var no = [42,10,11,32,33,35,7,8,9]
 
 	window.onload = function() {
-        random = Math.floor(Math.random()*36) + 9
+        random = Math.floor(Math.random()*35) + 9
 		var path = "/assets/models/asuna/asuna_"+random+"/asuna_"+random+".model.json";
 		live2DHelper.loadModel(path, function(){
             console.log('load model')
@@ -85,7 +85,7 @@
         modelNum = Math.floor(Math.random()*45) + 1
         console.log(modelNum);
         live2DHelper.releaseAllModel();
-        if(no.includes(modelNum)) modelNum = 5        
+        if(no.includes(modelNum)) modelNum = 1        
         if(modelNum >= 10) {
             live2DHelper.changeModel("assets/models/asuna/asuna_"+modelNum+"/asuna_"+modelNum+".model.json", function(){
                 live2DHelper.startTurnHead();
