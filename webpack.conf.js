@@ -2,6 +2,8 @@ import webpack from "webpack";
 import path from "path";
 const CompressionPlugin = require("compression-webpack-plugin");
 const workboxPlugin = require('workbox-webpack-plugin');
+const ImageminPlugin = require('imagemin-webpack-plugin').default
+
 let dist = 'dist'
 export default {
   module: {
@@ -27,6 +29,12 @@ export default {
       test: /\.(js|html|moc|mtn)$/,
       threshold: 10240,
       minRatio: 0.8
+  }),
+  new ImageminPlugin({
+    test: '**/*.{png,jpg}',
+    optipng: {
+      optimizationLevel: 9
+    }
   }),
     new webpack.ProvidePlugin({
       "fetch": "imports?this=>global!exports?global.fetch!whatwg-fetch"
