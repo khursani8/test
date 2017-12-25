@@ -54,7 +54,7 @@ $.ajax({
     if(document.referrer !== ''){
         var referrer = document.createElement('a');
         referrer.href = document.referrer;
-        text = `Hi！You are from <span style="color:${mainColor}">` + referrer.hostname + '</span>！';
+        text = `Hi！You are from <span style="color:${mainColor}">${referrer.hostname}</span>!`;
         var domain = referrer.hostname.split('.')[1];
         if (domain == 'baidu') {
             text = `嗨！ 来自 百度搜索 的朋友，<br>你是搜索 <span style="color:${mainColor};">` + referrer.search.split('&wd=')[1].split('&')[0] + '</span> 找到的我吗？';
@@ -107,7 +107,7 @@ function showMessage(text, timeout){
     message = $('.message')    
     message.stop();
     message.html(text).fadeTo(200, 1);
-    message.css('top',-message.height()+50);
+    message.css('top',-message.height());
     
     if (timeout === null) timeout = 5000;
     hideMessage(timeout);
@@ -127,7 +127,7 @@ function showAnimeQuote(text, timeout){
     ].join('')
     message = $('.message')
     message.html(quote).fadeTo(200, 1);
-    message.css('top',-message.height()+30);
+    message.css('top',-message.height());
     if (timeout === null) timeout = 5000;
     hideMessage(timeout);
 }

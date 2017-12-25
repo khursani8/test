@@ -2,6 +2,17 @@
 <div id="landlord">
     <div class="message" style="opacity:0"></div>
     <canvas id="live2d" width="280" height="280" class="live2d"></canvas>
+    <div id="waifu-tools">
+        <span id="waifu-home">
+            <i data-feather="home"></i>
+        </span>
+        <span id="waifu-model">
+            <i data-feather="user"></i>
+        </span>
+        <span id="waifu-quote">
+            <i data-feather="play"></i>
+        </span>
+    </div>
 </div>
 
 <script type="text/javascript">
@@ -14,6 +25,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.1/mousetrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="/live2d/js/message.js"></script>
+<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
 
 <script>
     /*let div = document.createElement('div');
@@ -26,6 +38,7 @@
         showMessage("What are you doing with the developer tools??", 3000);
         console.log('devtool open')
     }});*/
+    feather.replace()
     $('.ph3.bg-center.cover').css('height',window.innerHeight-77)
     Mousetrap.bind('q', function() {
         showHitokoto()
@@ -39,7 +52,7 @@
     var no = [42,10,11,32]
 
 	window.onload = function() {
-		var path = "/assets/models/asuna/asuna_02/asuna_02.model.json";
+		var path = "/assets/models/asuna/asuna_39/asuna_39.model.json";
 		live2DHelper.loadModel(path, function(){
             console.log('load model')
             live2DHelper.startTurnHead();
@@ -72,3 +85,18 @@
         }
     }
 </script>
+
+<style>
+    #waifu-tools{
+        position: absolute;
+        top:50px;
+        right:0
+    }
+    span{
+        display: block;
+        cursor: pointer;
+        color: #5b6c7d;
+        line-height: 20px;
+        transition: 0.2s;
+    }
+</style>
