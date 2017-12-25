@@ -43,7 +43,7 @@ export default {
       runtimeCaching: [
         {
           urlPattern: new RegExp('https://aq.khursani.win'),
-          handler: 'NetworkFirst'
+          handler: 'networkFirst'
         }
       ]
     })

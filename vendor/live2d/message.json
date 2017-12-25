@@ -59,6 +59,18 @@
         {
             "selector": "#waifu-exit",
             "text": ["Want to hide me?","Bye Bye~"]
+        },
+        {
+            "selector": "#waifu-model-in",
+            "text": ["Zoom in size"]
+        },
+        {
+            "selector": "#waifu-model-out",
+            "text": ["Zoom out size"]
+        },
+        {
+            "selector": "#waifu-model-music",
+            "text": ["Want me to sing a song?"]
         }
     ],
     "click": [
