@@ -34,14 +34,16 @@ export default {
     new workboxPlugin({
       globDirectory: dist,
       globPatterns: ['**/*.{html,js,css,svg,jpg,json,moc,png}'],
-      // globIgnores: ['admin/*'],
+      globIgnores: ['admin/*'],
       swDest: path.join(dist, 'sw.js'),
       clientsClaim: true,
       skipWaiting: true,
+      cleanPlugin: true,
+      htmlPlugin: true,
       runtimeCaching: [
         {
           urlPattern: new RegExp('https://aq.khursani.win'),
-          handler: 'staleWhileRevalidate'
+          handler: 'NetworkFirst'
         }
       ]
     })

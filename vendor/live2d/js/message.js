@@ -1,4 +1,4 @@
-var mainColor = '#fa4000'
+var mainColor = '#993366'
 function renderTip(template, context) {
     var tokenReg = /(\\)?\{([^\{\}\\]+)(\\)?\}/g;
     return template.replace(tokenReg, function (word, slash1, token, slash2) {
