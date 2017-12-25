@@ -12,10 +12,14 @@ import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
+import concat from "gulp-concat";
+import uglify from "gulp-uglify";
+import debug from "gulp-debug";
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
 const defaultArgs = ["-d", "../dist", "-s", "site"];
+
 
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
@@ -35,8 +39,8 @@ gulp.task("cms", () => {
     .pipe(browserSync.stream())
 });
 
-gulp.task("build", ["css", "js", "hugo", "cms"]);
-gulp.task("build-preview", ["css", "js", "hugo-preview"]);
+gulp.task("build", ["css", "js","scripts", "hugo", "cms"]);
+gulp.task("build-preview", ["css", "js","scripts","hugo-preview"]);
 
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
@@ -61,7 +65,18 @@ gulp.task("js", (cb) => {
     browserSync.reload();
     cb();
   });
-  
+});
+
+var jsFiles = 'src/libs/**/*.js',
+    jsDest = 'vendor'
+
+gulp.task('scripts', function() {
+  console.log(jsFiles+'--->>'+jsDest)
+    return gulp.src(jsFiles)
+        .pipe(debug({title: 'unicorn:'}))
+        .pipe(concat('libs.js'))
+        // .pipe(uglify())
+        .pipe(gulp.dest(jsDest))
 });
 
 gulp.task("svg", () => {
@@ -80,7 +95,7 @@ gulp.task("svg", () => {
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
-gulp.task("server", ["hugo", "css", "js", "svg", "cms"], () => {
+gulp.task("server", ["hugo", "css", "js","scripts", "svg", "cms"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"

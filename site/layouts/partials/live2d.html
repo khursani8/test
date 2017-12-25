@@ -37,24 +37,21 @@
     var home_Path = document.location.href
 </script>
 <link rel="stylesheet" href="/live2d/css/live2d.css" />
-<script src="/live2d.min.js" defer></script>
-<script src="/live2d-helper.min.js" defer></script>
-<script src="/mousetrap.min.js" defer></script>
-<script src="/jquery.min.js"></script>
-<script type="text/javascript" src="/live2d/js/message.js"></script>
-<script src="/feather.min.js" defer></script>
+<script src="/libs.js"></script>
 
 <script>
-    let div = document.createElement('div');
-    let loop = setInterval(() => {
-        console.log(div);
-        console.clear();
-    });
-    Object.defineProperty(div, "id", {get: () => { 
-        clearInterval(loop);
-        showMessage("What are you doing with the developer tools??", 3000);
-        console.log('devtool open')
-    }});
+    if(!document.location.href==='http://localhost:3000/'){
+        let div = document.createElement('div');
+        let loop = setInterval(() => {
+            console.log(div);
+            console.clear();
+        });
+        Object.defineProperty(div, "id", {get: () => { 
+            clearInterval(loop);
+            showMessage("What are you doing with the developer tools??", 3000);
+            console.log('devtool open')
+        }});
+    }
     feather.replace({
         style:"fill:none"
     })
