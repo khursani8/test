@@ -12,6 +12,12 @@
         <span id="waifu-quote">
             <i data-feather="play"></i>
         </span>
+        <span id="waifu-snapshot">
+            <i data-feather="camera"></i>
+        </span>
+        <span id="waifu-exit">
+            <i data-feather="x"></i>
+        </span>
     </div>
 </div>
 
@@ -38,7 +44,9 @@
         showMessage("What are you doing with the developer tools??", 3000);
         console.log('devtool open')
     }});*/
-    feather.replace()
+    feather.replace({
+        style:"fill:none"
+    })
     $('.ph3.bg-center.cover').css('height',window.innerHeight-77)
     Mousetrap.bind('q', function() {
         showHitokoto()
@@ -50,12 +58,14 @@
     $('#waifu-home').click(function(){document.location.href='/'})     
     $('#waifu-model').click(changeModel)
     $('#waifu-quote').click(showHitokoto)
+    $('#waifu-snapshot').click(function(){})
+    $('#waifu-exit').click(function(){$('#landlord').hide()})
     var canvasID = 'live2d'
     var live2DHelper = new Live2DHelper({canvas: canvasID});
     var no = [42,10,11,32]
 
 	window.onload = function() {
-        random = Math.floor(Math.random()*45) + 9
+        random = Math.floor(Math.random()*36) + 9
 		var path = "/assets/models/asuna/asuna_"+random+"/asuna_"+random+".model.json";
 		live2DHelper.loadModel(path, function(){
             console.log('load model')

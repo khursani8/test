@@ -46,11 +46,19 @@
         },
         {
             "selector": "#waifu-model",
-            "text": ["Change my outfit?","Bored with my outfit?","I got a lot of outfit that can be change..."]
+            "text": ["Change my outfit?","Bored with my outfit?","I got a lot of outfit that can be change...","Like to dress up?"]
         },
         {
             "selector": "#waifu-quote",
             "text": ["Want some Anime Quote?","Quote that can motivate people"]
+        },
+        {
+            "selector": "#waifu-snapshot",
+            "text": ["Want to take my picture? (WIP)","WIP"]
+        },
+        {
+            "selector": "#waifu-exit",
+            "text": ["Want to hide me?","Bye Bye~"]
         }
     ],
     "click": [
