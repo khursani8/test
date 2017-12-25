@@ -28,10 +28,10 @@
 <link rel="stylesheet" href="/live2d/css/live2d.css" />
 <script src="/live2d.min.js"></script>
 <script src="/live2d-helper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.1/mousetrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/mousetrap.min.js"></script>
+<script src="/jquery.min.js"></script>
 <script type="text/javascript" src="/live2d/js/message.js"></script>
-<script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+<script src="/feather.min.js"></script>
 
 <script>
     /*let div = document.createElement('div');
@@ -65,7 +65,7 @@
     var no = [42,10,11,32,33,35,7,8,9]
 
 	window.onload = function() {
-        random = Math.floor(Math.random()*35) + 9
+        random = Math.floor(Math.random()*34) + 12
 		var path = "/assets/models/asuna/asuna_"+random+"/asuna_"+random+".model.json";
 		live2DHelper.loadModel(path, function(){
             console.log('load model')
@@ -87,12 +87,12 @@
         live2DHelper.releaseAllModel();
         if(no.includes(modelNum)) modelNum = 1        
         if(modelNum >= 10) {
-            live2DHelper.changeModel("assets/models/asuna/asuna_"+modelNum+"/asuna_"+modelNum+".model.json", function(){
+            live2DHelper.changeModel("/assets/models/asuna/asuna_"+modelNum+"/asuna_"+modelNum+".model.json", function(){
                 live2DHelper.startTurnHead();
                 document.getElementById(canvasID).addEventListener("mousemove", followPointer, false);
             });
         } else {
-            live2DHelper.changeModel("assets/models/asuna/asuna_0"+modelNum+"/asuna_0"+modelNum+".model.json", function(){
+            live2DHelper.changeModel("/assets/models/asuna/asuna_0"+modelNum+"/asuna_0"+modelNum+".model.json", function(){
                 live2DHelper.startTurnHead();
                 document.getElementById(canvasID).addEventListener("mousemove", followPointer, false);
             });

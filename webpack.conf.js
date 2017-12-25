@@ -1,7 +1,8 @@
 import webpack from "webpack";
 import path from "path";
-var CompressionPlugin = require("compression-webpack-plugin");
-
+const CompressionPlugin = require("compression-webpack-plugin");
+const workboxPlugin = require('workbox-webpack-plugin');
+let dist = 'dist'
 export default {
   module: {
     loaders: [
@@ -29,6 +30,20 @@ export default {
   }),
     new webpack.ProvidePlugin({
       "fetch": "imports?this=>global!exports?global.fetch!whatwg-fetch"
+    }),
+    new workboxPlugin({
+      globDirectory: dist,
+      globPatterns: ['**/*.{html,js,css,svg,jpg,json,moc,png}'],
+      // globIgnores: ['admin/*'],
+      swDest: path.join(dist, 'sw.js'),
+      clientsClaim: true,
+      skipWaiting: true,
+      runtimeCaching: [
+        {
+          urlPattern: new RegExp('https://aq.khursani.win'),
+          handler: 'staleWhileRevalidate'
+        }
+      ]
     })
   ],
 
