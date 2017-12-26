@@ -6,13 +6,14 @@ image: null
 ---
 Cryptography
 
-- [jjencode](http://utf-8.jp/public/jjencode.html), [jsfuck](http://www.jsfuck.com/), [xchars-js](https://syllab.fr/projets/experiments/xcharsjs/5chars.pipeline.html)
-- 
+* [jjencode](http://utf-8.jp/public/jjencode.html), [jsfuck](http://www.jsfuck.com/), [xchars-js](https://syllab.fr/projets/experiments/xcharsjs/5chars.pipeline.html)
 
 Steganography
 
 Forensic
 
 Network
+
+- [Pivoting](https://bitrot.sh/cheatsheet/14-12-2017-pivoting/)
 
 Binary exploitation
