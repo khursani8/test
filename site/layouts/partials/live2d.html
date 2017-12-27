@@ -57,22 +57,24 @@
     var canvasID = 'live2d'
     var no = [42,10,11,32,33,35,7,8,9]
     
-
+    
     $( document ).ready(function() {
         Mousetrap.bind('q', function() {
             showHitokoto()
-         });
+        });
     
-         Mousetrap.bind('m', function() {
+        Mousetrap.bind('m', function() {
             changeModel()
-         });
+        });
         feather.replace({
             style:"fill:none"
         })
         $('#waifu-home').click(function(){document.location.href='/'})     
         $('#waifu-model').click(changeModel)
         $('#waifu-quote').click(showHitokoto)
-        $('#waifu-snapshot').click(function(){})
+        $('#waifu-snapshot').click(()=>{
+            console.log('in progress')
+        })
         $('#waifu-exit').click(function(){$('#landlord').hide()})
         $('#waifu-model-in').click(function(){live2DHelper.modelScaling(1.1)})
         $('#waifu-model-out').click(function(){live2DHelper.modelScaling(0.9)})
