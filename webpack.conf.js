@@ -40,6 +40,7 @@ export default {
       skipWaiting: true,
       cleanPlugin: true,
       htmlPlugin: true,
+      cacheId: 'khursani',
       runtimeCaching: [
         {
           urlPattern: new RegExp('https://aq.khursani.win'),

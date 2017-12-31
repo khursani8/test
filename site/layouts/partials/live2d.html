@@ -43,6 +43,7 @@
 
 <script>
     if(!document.location.href==='http://localhost:3000/'){
+        console.log = ()=>{}
         let div = document.createElement('div');
         let loop = setInterval(() => {
             console.log(div);
