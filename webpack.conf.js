@@ -16,18 +16,18 @@ export default {
         test: /\.js?$/,
         exclude: /node_modules/,
         query: {cacheDirectory: true}
+      },
+      {
+        test: /\.(jpe?g|png)$/i,
+        loaders: [
+          // 'file-loader',
+          'webp-loader'
+        ]
       }
     ]
   },
 
   plugins: [
-    new CompressionPlugin({
-      asset: "[path].gz[query]",
-      algorithm: "gzip",
-      test: /\.(js|html|moc|mtn)$/,
-      threshold: 10240,
-      minRatio: 0.8
-  }),
     new webpack.ProvidePlugin({
       "fetch": "imports?this=>global!exports?global.fetch!whatwg-fetch"
     }),
@@ -47,7 +47,14 @@ export default {
           handler: 'networkFirst'
         }
       ]
-    })
+    }),
+    new CompressionPlugin({
+      asset: "[path].gz[query]",
+      algorithm: "gzip",
+      test: /\.(js|html|moc|mtn)$/,
+      threshold: 10240,
+      minRatio: 0
+  }),
   ],
 
   context: path.join(__dirname, "src"),
