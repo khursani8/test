@@ -11,3 +11,7 @@ Security
 Machine Learning
 
 * http://ruder.io/optimizing-gradient-descent/index.html // sgd history
+
+CSS
+
+* https://www.sitelocity.com/critical-path-css-generator // inline critical path
