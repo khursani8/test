@@ -42,7 +42,7 @@
 <link rel="stylesheet" href="/css/main.css"/>
 
 <script>
-    if(!document.location.href==='http://localhost:3000/'){
+    if(!(document.location.href==='http://localhost:3000/')){
         console.log = ()=>{}
         let div = document.createElement('div');
         let loop = setInterval(() => {
