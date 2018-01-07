@@ -1,0 +1,9 @@
+
+# Redirect with a 301
+/home         /                            301
+
+# Invisbily proxy to a third party API
+#/api/*  https://api.example.com/:splat     200
+
+# Show a custom 404 for a path
+/*    /construction      404
