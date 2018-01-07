@@ -44,15 +44,6 @@
 <script>
     if(!(document.location.href==='http://localhost:3000/')){
         console.log = ()=>{}
-        let div = document.createElement('div');
-        let loop = setInterval(() => {
-            console.log(div);
-            console.clear();
-        });
-        Object.defineProperty(div, "id", {get: () => { 
-            clearInterval(loop);
-            showMessage("What are you doing with the developer tools??!!!", 3000);
-        }});
     }
     $('.ph3.bg-center.cover').css('height',window.innerHeight-77)
     var canvasID = 'live2d'
