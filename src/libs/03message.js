@@ -97,7 +97,7 @@ window.setInterval(showHitokoto,30000);
 function showHitokoto(){
     
     $.getJSON('https://aq.khursani.win/',function(result){
-        showAnimeQuote(result, 5000);
+        showAnimeQuote(result, 8000);
     });
 }
 
