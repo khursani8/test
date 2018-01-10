@@ -13,7 +13,7 @@ import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
 import concat from "gulp-concat";
-import uglify from "gulp-uglify";
+import uglify from "gulp-uglify-es";
 import debug from "gulp-debug";
 
 const browserSync = BrowserSync.create();
@@ -75,7 +75,7 @@ gulp.task('scripts', function() {
     return gulp.src(jsFiles)
         .pipe(debug({title: 'unicorn:'}))
         .pipe(concat('libs.js'))
-        // .pipe(uglify())
+        .pipe(uglify())
         .pipe(gulp.dest(jsDest))
 });
 

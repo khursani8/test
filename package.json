@@ -36,7 +36,7 @@
     "gulp-debug": "^3.1.0",
     "gulp-postcss": "^6.1.1",
     "gulp-replace": "^0.5.4",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^0.1.11",
     "gulp-util": "^3.0.7",
     "imports-loader": "^0.6.5",
     "netlify-cms": "^0.4.0",
