@@ -34,7 +34,7 @@ export default {
     new workboxPlugin({
       globDirectory: dist,
       globPatterns: ['**/*.{html,js,css,svg,jpg,json,moc,png}'],
-      globIgnores: ['admin/*'],
+      globIgnores: ['admin/*','sw.js'],
       swDest: path.join(dist, 'sw.js'),
       clientsClaim: true,
       skipWaiting: true,
