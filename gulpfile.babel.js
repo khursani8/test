@@ -15,6 +15,8 @@ import cssnano from "cssnano";
 import concat from "gulp-concat";
 import uglify from "gulp-uglify-es";
 import debug from "gulp-debug";
+import gzip from 'gulp-gzip'
+
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
@@ -76,6 +78,7 @@ gulp.task('scripts', function() {
         .pipe(debug({title: 'unicorn:'}))
         .pipe(concat('libs.js'))
         .pipe(uglify())
+        .pipe(gzip())
         .pipe(gulp.dest(jsDest))
 });
 

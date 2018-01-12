@@ -1,5 +1,5 @@
 
-<div id="landlord">
+<div id="sani">
     <div class="message" style="opacity:0"></div>
     <canvas id="live2d" width="280" height="350" class="live2d"></canvas>
     <div id="waifu-tools">
@@ -67,7 +67,7 @@
         $('#waifu-snapshot').click(()=>{
             console.log('in progress')
         })
-        $('#waifu-exit').click(function(){$('#landlord').hide()})
+        $('#waifu-exit').click(function(){$('#sani').hide()})
         $('#waifu-model-in').click(function(){live2DHelper.modelScaling(1.1)})
         $('#waifu-model-out').click(function(){live2DHelper.modelScaling(0.9)})
         $('#waifu-model-music').click(function(){live2DHelper.playSoundAJAX("assets/sound/1.mp3")})

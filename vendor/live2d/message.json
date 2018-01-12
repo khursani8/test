@@ -37,7 +37,7 @@
             "text": ["What are you looking for? Need help? |ω･)ﾉ"]
         },
         {
-            "selector": "#landlord .live2d",
+            "selector": "#sani .live2d",
             "text": ["Where do you think you put your mouse? (＃＞＜)","Please press M key for change model","Press Q key for quote"]
         },
         {
@@ -75,7 +75,7 @@
     ],
     "click": [
         {
-            "selector": "#landlord #live2d",
+            "selector": "#sani #live2d",
             "text": ["Don't touch me!! (＞﹏＜)","Hentai (￢_￢;)","If you touch me again, I will call police!!"]
         }
     ]

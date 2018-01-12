@@ -1,4 +1,4 @@
-#landlord {
+#sani {
     user-select: none;
     position: fixed;
     right: 30px;
@@ -36,12 +36,12 @@
 }
 
 @media (max-width: 860px) {
-    #landlord {
+    #sani {
         display: none;
     }
 }
 
-#landlord:hover {
+#sani:hover {
     -webkit-transform: translateY(0);
     transform: translateY(0);
 }

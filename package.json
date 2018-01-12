@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "compression-webpack-plugin": "^1.0.1",
+    "gulp-gzip": "^1.4.1",
     "gulp-inject": "^4.2.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
