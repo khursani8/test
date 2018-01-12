@@ -1,4 +1,8 @@
 # A path:
+/*
+   Cache-Control: public, max-age=360000 
+   Content-Encoding: gzip
+
 /assets/*
    # Headers for that path:
    Cache-Control: public, max-age=360000 

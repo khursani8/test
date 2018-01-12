@@ -75,10 +75,10 @@ var jsFiles = 'src/libs/**/*.js',
 gulp.task('scripts', function() {
   console.log(jsFiles+'--->>'+jsDest)
     return gulp.src(jsFiles)
-        .pipe(debug({title: 'unicorn:'}))
+        // .pipe(debug({title: 'unicorn:'}))
         .pipe(concat('libs.js'))
         .pipe(uglify())
-        .pipe(gzip())
+        .pipe(gzip({ skipGrowingFiles : true }))
         .pipe(gulp.dest(jsDest))
 });
 
