@@ -6,4 +6,5 @@ image: null
 ---
 1. https://console.cloud.google.com/cloudshell/editor?shellonly=true
 2. https://colab.research.google.com/notebook
-3. 
+3. https://quillbot.com/ # paraphrase bot
+
