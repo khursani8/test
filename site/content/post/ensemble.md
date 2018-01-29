@@ -4,24 +4,23 @@ date: 2018-01-29T13:12:35.707Z
 description: My note to differentiate different type of ensemble
 image: null
 ---
-Ensemble have two type technique which is known as bagging and boosting. 
+Ensemble have two type technique which is known as bagging and boosting.
 
 Bagging
 
-- Building many predictors or model
-
-- Take random sub-sample or bootstrap of row(data)
-
-- Average the result or take the majority vote
-
-- Every model must loosely correlate with each other to reduce variance
+* Building many predictors or model
+* Take random sub-sample or bootstrap of row(data)
+* Average the result or take the majority vote
+* Every model must loosely correlate with each other to reduce variance
 
 Boosting
 
-- Predictors are made sequentially
+* Predictors are made sequentially
+* Predictors learn from previous predictor mistake
+* Very fast
+* Can lead to overfitting
 
-- Predictors learn from previous predictor mistake
+### Reference
 
-- Very fast
+https://medium.com/mlreview/gradient-boosting-from-scratch-1e317ae4587d
 
-- Can lead to overfitting
