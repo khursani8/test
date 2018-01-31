@@ -7,5 +7,7 @@ image: null
 1. https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c (Linear Algebra basic)
 2. https://harishnarayanan.org/writing/artistic-style-transfer/
 3. https://appliedgo.net/perceptron/#inside-an-artificial-neuron
+4. https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives
+
 
 
