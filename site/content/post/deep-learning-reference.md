@@ -8,6 +8,7 @@ image: null
 2. https://harishnarayanan.org/writing/artistic-style-transfer/
 3. https://appliedgo.net/perceptron/#inside-an-artificial-neuron
 4. https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives
+5. https://medium.com/@nokkk/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4
 
 
 
