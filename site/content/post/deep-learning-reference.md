@@ -10,6 +10,8 @@ image: null
 4. https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives
 5. https://medium.com/@nokkk/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4
 6. https://medium.com/@bwest87/building-a-deep-neural-net-in-google-sheets-49cdaf466da0
+7. https://codeburst.io/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4
+
 
 
 
