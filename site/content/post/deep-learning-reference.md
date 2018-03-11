@@ -7,5 +7,13 @@ image: null
 1. https://towardsdatascience.com/linear-algebra-cheat-sheet-for-deep-learning-cd67aba4526c (Linear Algebra basic)
 2. https://harishnarayanan.org/writing/artistic-style-transfer/
 3. https://appliedgo.net/perceptron/#inside-an-artificial-neuron
+4. https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivative-and-gradient-articles/a/introduction-to-partial-derivatives
+5. https://medium.com/@nokkk/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4
+6. https://medium.com/@bwest87/building-a-deep-neural-net-in-google-sheets-49cdaf466da0
+7. https://codeburst.io/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4
+8. https://najeebkhan.github.io/blog/VecCal.html (Jacobian vs Hessian)
+
+
+
 
 

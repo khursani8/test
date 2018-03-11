@@ -11,7 +11,9 @@ Security
 Machine Learning
 
 * http://ruder.io/optimizing-gradient-descent/index.html // sgd history
+* http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html // math for DL
 
 CSS
 
 * https://www.sitelocity.com/critical-path-css-generator // inline critical path
+

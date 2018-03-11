@@ -17,3 +17,9 @@ Network
 - [Pivoting](https://bitrot.sh/cheatsheet/14-12-2017-pivoting/)
 
 Binary exploitation
+
+web
+https://badsite.io/
+https:\/\/twitter.com\/Alra3ees\/status\/971491404483571712
+
+
