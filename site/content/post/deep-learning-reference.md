@@ -14,6 +14,7 @@ image: null
 8. https://najeebkhan.github.io/blog/VecCal.html (Jacobian vs Hessian)
 9. Optimization algo bird eye view http://fa.bianp.net/teaching/2018/eecs227at/
 10. https://nbviewer.jupyter.org/github/groverpr/learn_python_libraries/blob/master/pandas/pandas_cheatsheet.ipynb basic pandas df
+11. https://github.com/Stephen-Rimac/Python-for-Data-Scientists/blob/master/Python%20for%20Data%20Scientists.ipynb data scientist
 
 
 
