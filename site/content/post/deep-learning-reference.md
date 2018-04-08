@@ -13,7 +13,7 @@ image: null
 7. https://codeburst.io/jupyter-notebook-tricks-for-data-science-that-enhance-your-efficiency-95f98d3adee4
 8. https://najeebkhan.github.io/blog/VecCal.html (Jacobian vs Hessian)
 9. Optimization algo bird eye view http://fa.bianp.net/teaching/2018/eecs227at/
-
+10. https://nbviewer.jupyter.org/github/groverpr/learn_python_libraries/blob/master/pandas/pandas_cheatsheet.ipynb basic pandas df
 
 
 
