@@ -18,4 +18,9 @@ CSS
 
 * https://www.sitelocity.com/critical-path-css-generator // inline critical path
 
+JS
+
+https://dev.to/deen_john/resources-to-master-javascript-3d0p
+
+
 
