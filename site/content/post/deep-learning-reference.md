@@ -17,6 +17,8 @@ image: null
 11. https://github.com/Stephen-Rimac/Python-for-Data-Scientists/blob/master/Python%20for%20Data%20Scientists.ipynb data scientist
 12. https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c precision and recall
 13. https://medium.com/@yu4u/why-mobilenet-and-its-variants-e-g-shufflenet-are-fast-1c7048b9618d mobilenet
+14. https://qiita.com/odanado/items/ffb685ba48f8a2a51683 embedding visualization
+
 
 
 
