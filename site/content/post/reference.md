@@ -22,5 +22,10 @@ JS
 
 https://dev.to/deen_john/resources-to-master-javascript-3d0p
 
+Computer Graphics(I need this for learning vector and relative position for AR)
+
+* https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/geometry
+
+
 
 
