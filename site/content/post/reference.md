@@ -27,5 +27,6 @@ Computer Graphics(I need this for learning vector and relative position for AR)
 * https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/geometry
 
 
+Real time with SSE https://www.voorhoede.nl/en/blog/real-time-communication-with-server-sent-events/
 
 
