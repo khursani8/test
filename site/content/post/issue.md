@@ -5,3 +5,6 @@ description: List of issue found
 image: null
 ---
 lambda cannot upload s3 https://stackoverflow.com/questions/35589641/aws-lambda-function-getting-access-denied-when-getobject-from-s3
+
+improving node performance https://www.smashingmagazine.com/2012/11/writing-fast-memory-efficient-javascript/
+
