@@ -12,4 +12,6 @@ I decide to participate in this [competition](https://www.kaggle.com/c/dogs-vs-c
 After download the datasets I check at the file and found out that there is two folder which is train and test folder. Inside the folder got images of cats and dogs in one folder. It was better to seperate all those image in different folder and use that folder name as label.
 It took me a while to find a way to seperate them since I don't know the best way to split and copy all the file to seperate folder.
 After playing around I decide to use pathlib and shutil for this task.
-
+The folder being divide into train(cats,dogs),valid(cats,dogs) and test(unlabel)
+Then I start with using image augmentation side on and zoom size 1.1
+fit the model with 1 epoch, fit with cylical learning rate and then fit with unfreeze layer using differential learning rate annealing for each layer group.
