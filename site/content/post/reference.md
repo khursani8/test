@@ -14,6 +14,7 @@ Machine Learning
 * http://ruder.io/optimizing-gradient-descent/index.html // sgd history
 * http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html // math for DL
 * https://machinelearningmastery.com/start-with-gradient-boosting // which model to choose
+* https://drive.google.com/viewerng/viewer?url=http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf // PCA basic guide
 
 CSS
 
