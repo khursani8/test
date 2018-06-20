@@ -20,7 +20,7 @@ Machine Learning
 CSS
 
 * https://www.sitelocity.com/critical-path-css-generator // inline critical path
-
+* https://css-tricks.com/centering-the-newest-coolest-way-vs-the-oldest-coolest-way/ 
 JS
 
 https://dev.to/deen_john/resources-to-master-javascript-3d0p
@@ -36,4 +36,5 @@ Real time with SSE https://www.voorhoede.nl/en/blog/real-time-communication-with
 MATH
 
 * https://oeis.org/ integer sequence
+
 
