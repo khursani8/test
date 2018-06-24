@@ -16,6 +16,8 @@ Machine Learning
 * https://machinelearningmastery.com/start-with-gradient-boosting // which model to choose
 * https://drive.google.com/viewerng/viewer?url=http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf // PCA basic guide
 * https://shiring.github.io/machine_learning/2017/04/02/unbalanced // dealing with unbalanced dataset
+https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07
+* https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07 //model robust to outlier
 
 CSS
 
@@ -36,5 +38,6 @@ Real time with SSE https://www.voorhoede.nl/en/blog/real-time-communication-with
 MATH
 
 * https://oeis.org/ integer sequence
+
 
 
