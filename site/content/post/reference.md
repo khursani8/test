@@ -16,14 +16,15 @@ Machine Learning
 * https://machinelearningmastery.com/start-with-gradient-boosting // which model to choose
 * https://drive.google.com/viewerng/viewer?url=http://www.cs.otago.ac.nz/cosc453/student_tutorials/principal_components.pdf // PCA basic guide
 * https://shiring.github.io/machine_learning/2017/04/02/unbalanced // dealing with unbalanced dataset
-https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07
+  https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07
 * https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07 //model robust to outlier
+* https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/ backprop
 
 CSS
 
 * https://www.sitelocity.com/critical-path-css-generator // inline critical path
-* https://css-tricks.com/centering-the-newest-coolest-way-vs-the-oldest-coolest-way/ 
-JS
+* https://css-tricks.com/centering-the-newest-coolest-way-vs-the-oldest-coolest-way/
+  JS
 
 https://dev.to/deen_john/resources-to-master-javascript-3d0p
 
@@ -38,6 +39,3 @@ Real time with SSE https://www.voorhoede.nl/en/blog/real-time-communication-with
 MATH
 
 * https://oeis.org/ integer sequence
-
-
-
