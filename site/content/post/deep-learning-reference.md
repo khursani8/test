@@ -19,6 +19,8 @@ image: null
 13. https://medium.com/@yu4u/why-mobilenet-and-its-variants-e-g-shufflenet-are-fast-1c7048b9618d mobilenet
 14. https://qiita.com/odanado/items/ffb685ba48f8a2a51683 embedding visualization
 15. https://medium.com/@shivamgoel1791/everything-you-need-to-know-about-neural-style-transfer-994530cc9a6e neural style transfer
+16. https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/ // nmt with attention
+
 
 
 
