@@ -23,6 +23,7 @@ https://badsite.io/
 https:\/\/twitter.com\/Alra3ees\/status\/971491404483571712
 https://mothereff.in/
 https://www.malwaretech.com/beginner-malware-reversing-challenges
+https://www.begin.re/
 
 
 
