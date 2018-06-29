@@ -19,6 +19,7 @@ Machine Learning
   https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07
 * https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07 //model robust to outlier
 * https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/ backprop
+https://www.kaggle.com/kashnitsky/mlcourse/home // ods 
 
 CSS
 
@@ -39,3 +40,4 @@ Real time with SSE https://www.voorhoede.nl/en/blog/real-time-communication-with
 MATH
 
 * https://oeis.org/ integer sequence
+
