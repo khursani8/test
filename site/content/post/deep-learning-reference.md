@@ -21,6 +21,8 @@ image: null
 15. https://medium.com/@shivamgoel1791/everything-you-need-to-know-about-neural-style-transfer-994530cc9a6e neural style transfer
 16. https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/ // nmt with attention
 17. https://www.kaggle.com/annavictoria/ml-friendly-public-datasets
+18. https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/?__s=soesfvn8qaszfihuwqqp
+
 
 
 
