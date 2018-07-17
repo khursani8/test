@@ -24,6 +24,12 @@ image: null
 18. https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/?__s=soesfvn8qaszfihuwqqp
 
 
+Visualization
+
+1. https://projector.tensorflow.org/ 
+
+
+
 
 
 
