@@ -22,11 +22,12 @@ image: null
 16. https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/ // nmt with attention
 17. https://www.kaggle.com/annavictoria/ml-friendly-public-datasets
 18. https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/?__s=soesfvn8qaszfihuwqqp
-
+19. https://tuatini.me/part-1-how-to-setup-your-own-environment-for-deep-learning/
 
 Visualization
 
 1. https://projector.tensorflow.org/ 
+
 
 
 
