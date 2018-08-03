@@ -8,3 +8,4 @@ image: null
 
 2\. https://docs.opencv.org/3.4.1/d9/dab/tutorial_homography.html planar for AR
 
+3\. https://rajatvd.github.io/Animating-Doodles-With-Autoencoders/
