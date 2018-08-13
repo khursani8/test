@@ -14,21 +14,18 @@ Forensic
 
 Network
 
-- [Pivoting](https://bitrot.sh/cheatsheet/14-12-2017-pivoting/)
-- https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/
+* [Pivoting](https://bitrot.sh/cheatsheet/14-12-2017-pivoting/)
+* https://jvns.ca/blog/2018/06/19/what-i-use-wireshark-for/
 
 Binary exploitation
 
 web
 https://badsite.io/
-https:\/\/twitter.com\/Alra3ees\/status\/971491404483571712
+https://twitter.com/Alra3ees/status/971491404483571712
 https://mothereff.in/
-https://www.malwaretech.com/beginner-malware-reversing-challenges
-https://www.begin.re/
 
+https://docs.google.com/document/d/101EsKlu41ICdeE7mEv189SS8wMtcdXfRtua0ClYjP1M/edithttps://www.malwaretech.com/beginner-malware-reversing-challenges
+https://www.begin.re/
 
 Reverse Engineering
 https://crackmes.one/
-
-
-
