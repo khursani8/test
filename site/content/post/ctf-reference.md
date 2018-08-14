@@ -29,3 +29,5 @@ https://www.begin.re/
 
 Reverse Engineering
 https://crackmes.one/
+
+https://medium.com/@hakluke/haklukes-guide-to-hacking-without-metasploit-1bbbe3d14f90
