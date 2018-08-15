@@ -31,3 +31,5 @@ Reverse Engineering
 https://crackmes.one/
 
 https://medium.com/@hakluke/haklukes-guide-to-hacking-without-metasploit-1bbbe3d14f90
+
+https://curtbraz.blogspot.com/2018/08/bypassing-next-gen-av-during-pentest.html
