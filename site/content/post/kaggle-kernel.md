@@ -6,3 +6,4 @@ image: null
 ---
 1. https://www.kaggle.com/sinakhorami/titanic-best-working-classifier?scriptVersionId=560373
 2. https://www.kaggle.com/nadare/titanic-randomforest-0-79425
+3. winning solution https://www.kaggle.com/sudalairajkumar/winning-solutions-of-kaggle-competitions
