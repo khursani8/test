@@ -19,9 +19,9 @@ Machine Learning
   https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07
 * https://heartbeat.fritz.ai/how-to-make-your-machine-learning-models-robust-to-outliers-44d404067d07 //model robust to outlier
 * https://google-developers.appspot.com/machine-learning/crash-course/backprop-scroll/ backprop
-https://www.kaggle.com/kashnitsky/mlcourse/home // ods 
-https://blog.codecentric.de/en/2017/09/data-science-fraud-detection/?utm_content=buffer81680&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
-https://shiring.github.io/machine_learning/2017/04/02/unbalanced
+  https://www.kaggle.com/kashnitsky/mlcourse/home // ods
+  https://blog.codecentric.de/en/2017/09/data-science-fraud-detection/?utm_content=buffer81680&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  https://shiring.github.io/machine_learning/2017/04/02/unbalanced
 
 CSS
 
@@ -43,4 +43,6 @@ MATH
 
 * https://oeis.org/ integer sequence
 
+JS
 
+https://jackmott.github.io/programming/2016/07/22/making-obvious-fast.html
