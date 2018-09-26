@@ -23,6 +23,7 @@ image: null
 17. https://www.kaggle.com/annavictoria/ml-friendly-public-datasets
 18. https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/?__s=soesfvn8qaszfihuwqqp
 19. https://tuatini.me/part-1-how-to-setup-your-own-environment-for-deep-learning/
+20. https://christophm.github.io/interpretable-ml-book/intro.html
 
 Visualization
 
