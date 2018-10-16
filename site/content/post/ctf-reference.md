@@ -4,6 +4,10 @@ date: 2017-12-13T14:42:13.388Z
 description: Reference for ctf competition
 image: null
 ---
+Pivoting
+
+https://artkond.com/2017/03/23/pivoting-guide/
+
 Cryptography
 
 * [jjencode](http://utf-8.jp/public/jjencode.html), [jsfuck](http://www.jsfuck.com/), [xchars-js](https://syllab.fr/projets/experiments/xcharsjs/5chars.pipeline.html)
