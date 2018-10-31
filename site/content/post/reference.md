@@ -42,6 +42,7 @@ Real time with SSE https://www.voorhoede.nl/en/blog/real-time-communication-with
 MATH
 
 * https://oeis.org/ integer sequence
+* https://frontstuff.io/how-to-handle-monetary-values-in-javascript // JS math
 
 JS
 
