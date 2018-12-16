@@ -47,3 +47,7 @@ MATH
 JS
 
 https://jackmott.github.io/programming/2016/07/22/making-obvious-fast.html
+
+Project
+
+https://neilonsoftware.com/books/personality-patterns-of-problematic-projects/
